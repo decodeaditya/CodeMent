@@ -47,9 +47,16 @@ with st.sidebar:
         3. **Result:** Hurry! Your code got Converted.
     """)
 
+    st.markdown("---")
+    st.markdown("""
+    **Additional Info**
+    If you Want to Make a Conversion in Other Language, You Can Make your own Version and improve it.
+    
+""")
+
 # Main Page    
 
-st.title("CodeMend: Lets Convert Code")
+st.title("Kapany: Lets Convert Code")
 st.caption("Transform, Update or Migrate your Code with Help of AI")
 st.caption("**NOTE**: Don't forget to Configure in Sidebar")
 

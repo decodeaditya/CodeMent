@@ -17,7 +17,7 @@ def display_header():
     logo = f"""
     {Fore.GREEN}       _-_-_
     {Fore.GREEN}    /    / /     
-    {Fore.GREEN}   /____/_/       {Fore.YELLOW}CodeMend - The Autonomous Code Agent{Style.RESET_ALL}
+    {Fore.GREEN}   /____/_/       {Fore.YELLOW}Kapany - The Autonomous Code Agent{Style.RESET_ALL}
     {Fore.GREEN}  (______)        {Fore.GREEN}Tier 1: Zero-Cost Validation{Style.RESET_ALL}
     {Fore.GREEN}
 
@@ -30,7 +30,7 @@ def display_header():
 
 def setup_cli():
     parser = argparse.ArgumentParser(
-        description="CodeMend: Autonomous Agent for Language Migration and Correction."
+        description="Kapany: Autonomous Agent for Language Migration and Correction."
     )
 
     parser.add_argument(
