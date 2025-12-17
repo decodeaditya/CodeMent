@@ -8,7 +8,7 @@ file_extension_map = {
     "c++": "cpp",
     "c": "c",
     "ruby": "rb",
-    "go": "go",
+    "golang": "go",
     "php": "php",
     "typescript": "ts",
     "swift": "swift",

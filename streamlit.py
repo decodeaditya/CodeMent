@@ -8,7 +8,7 @@ from transfunctions.validation import validate_code_syntax
 
 # Setting Page View
 st.set_page_config(
-    page_title="CodeMent - Transform your Code!",
+    page_title="Kapany - Transform your Code!",
     layout="wide" 
 )
 
