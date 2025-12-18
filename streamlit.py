@@ -53,6 +53,7 @@ with st.sidebar:
     If you Want to Make a Conversion in Other Language, You Can Make your own Version and improve it.
     
 """)
+    st.link_button("Get CLI Source Here", "https://github.com/decodeaditya/Kapany/releases/tag/CLI_Source",)
 
 # Main Page    
 
