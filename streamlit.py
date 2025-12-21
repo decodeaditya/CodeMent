@@ -5,12 +5,20 @@ from io import StringIO
 import os
 from transfunctions.read_and_convert_code import read_and_convert_code
 from transfunctions.validation import validate_code_syntax
+from PIL import Image
+
+
+
+logo = Image.open("logo.png")
 
 # Setting Page View
 st.set_page_config(
     page_title="Kapany - Transform your Code!",
-    layout="wide" 
+    layout="wide" ,
+    page_icon=logo,
 )
+
+st.logo("logo.png", icon_image="logo.png", link="https://example.com")
 
 # Getting Language Options
 language_options = []
@@ -22,7 +30,7 @@ for key,values in file_extension_map.items():
 # Config Sidebar
 with st.sidebar:
 
-    st.title("⚙️ Configuration & Steps")
+    st.title("Configuration & Steps")
     st.subheader("Conversion Settings")
 
     source_language = st.selectbox(
@@ -49,7 +57,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.markdown("""
-    **Additional Info**
+    **Additional Info:**
     If you Want to Make a Conversion in Other Language, You Can Make your own Version and improve it.
     
 """)
@@ -57,7 +65,7 @@ with st.sidebar:
 
 # Main Page    
 
-st.title("Kapany: Lets Convert Code")
+st.title("Kapany - Code Transformer")
 st.caption("Transform, Update or Migrate your Code with Help of AI")
 st.caption("**NOTE**: Don't forget to Configure in Sidebar")
 
